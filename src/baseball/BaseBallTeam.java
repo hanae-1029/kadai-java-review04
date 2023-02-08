@@ -2,8 +2,8 @@ package baseball;
 
 public class BaseBallTeam {
 
-    String name;
-    int win, lose, draw;
+    private String name;
+    private int win, lose, draw;
 
     BaseBallTeam(String name, int win, int lose, int draw) {
         setName(name);
@@ -49,7 +49,6 @@ public class BaseBallTeam {
     }
 
     void report() {
-        System.out.printf("%s の2022年の成績は %d勝 %d敗 %d分、勝率は %fです。%n", getName(), getWin(), getLose(), getDraw(),
-                getRate());
+        System.out.printf("%s の202年の成績は %d勝 %d敗 %d分、勝率は %fです。%n", getName(), getWin(), getLose(), getDraw(), getRate());
     }
 }
