@@ -4,6 +4,7 @@ public class Review03 {
 
     public static void main(String[] args) {
         BaseBallTeam[] bbta = new BaseBallTeam[6];
+
         bbta[0] = new BaseBallTeam("東京ヤクルトスワローズ", 80, 59, 4);
         bbta[1] = new BaseBallTeam("DeNAベイスターズ", 73, 68, 2);
         bbta[2] = new BaseBallTeam("阪神タイガース", 68, 71, 4);
